@@ -15,8 +15,8 @@ export default function Works() {
                         <p className={style.para}>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
                     </div>
 
-                    <div className="row">
-                        <div className="col-lg-12 col-md-12 col-sm-12 text-center pt-2">
+                    <div className="row mt-4">
+                        <div className="col-lg-4 col-md-12 col-sm-12 text-center">
                             <div className={style.box}>
                                 <div className={style.bg_Color}>
                                     <div className={style.image}>
@@ -28,11 +28,11 @@ export default function Works() {
                             </div>
                         </div>
                       
-                        <div className="col-lg-12 col-md-12 col-sm-12 text-center pt-5 mt-5">
+                        <div className="col-lg-4 col-md-12 col-sm-12 text-center">
                             <div className={style.box}>
                                 <div className={style.bg_Color}>
                                     <div className={style.image}>
-                                        <Image src={Images.work1} alt='' fill priority />
+                                        <Image src={Images.work3} alt='' fill priority />
                                     </div>
                                 </div>
                                 <h6 className={style.head}>2. Make your fantasy team</h6>
@@ -40,14 +40,14 @@ export default function Works() {
                             </div>
                         </div>
                        
-                        <div className="col-lg-12 col-md-12 col-sm-12 text-center pt-5 mt-5">
+                        <div className="col-lg-4 col-md-12 col-sm-12 text-center">
                             <div className={style.box}>
                                 <div className={style.bg_Color}>
                                     <div className={style.image}>
-                                        <Image src={Images.work1} alt='' fill priority />
+                                        <Image src={Images.work2} alt='' fill priority />
                                     </div>
                                 </div>
-                                <h6 className={style.head}>3.Join the contests</h6>
+                                <h6 className={style.head}>3. Join the contests</h6>
                                 <p className={style.desc}>Participate in the Paid & Practice contests, and win Actual on Cricfast.</p>
                             </div>
                         </div>

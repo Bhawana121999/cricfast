@@ -8,6 +8,7 @@ import icon4 from '@/assets/images/icon4.webp'
 import work1 from '@/assets/images/work1.webp'
 import work2 from '@/assets/images/work2.webp'
 import work3 from '@/assets/images/work3.webp'
+import download from '@/assets/images/download.webp'
 
 export const Images = {
     logo,
@@ -20,4 +21,5 @@ export const Images = {
     work1,
     work2,
     work3,
+    download,
 }

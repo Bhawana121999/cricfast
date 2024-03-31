@@ -1,21 +1,26 @@
 .work_sec {
     padding: 80px 0px;
-    background-color: #1e1e1e;
+    background-image: url('/middle_bg.webp');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 500px;
     background-attachment: fixed;
     margin: 80px 0px;
     position: relative;
+    border-top: 1px solid #e3e3e3;
+    border-bottom: 1px solid #e3e3e3;
 
     .heading {
         font-size: 40px;
         font-weight: 600;
-        color: #fff;
+        color: #1e1e1e;
         margin-bottom: 10px;
     }
 
     .para {
         font-size: 16px;
         font-weight: 400;
-        color: #fff;
+        color: #7d7d7d;
         margin-bottom: 50px;
     }
 
@@ -28,7 +33,7 @@
             width: 80px;
             height: 80px;
             border-radius: 50%;
-            background-color: #fff;
+            background-color: #1e1e1e;
             margin-bottom: 30px;
 
             .image {
@@ -47,23 +52,19 @@
         .head {
             font-size: 20px;
             font-weight: 600;
-            color: #fff;
+            color: #1e1e1e;
             margin-bottom: 0px;
-            background: #1e1e1e;
             position: relative;
-            padding: 5px 0px;
             z-index: 1;
         }
 
         .desc {
             font-size: 16px;
             font-weight: 400;
-            color: #fff;
+            color: #7d7d7d;
             margin-bottom: 0px;
-            background-color: #1e1e1e;
             position: relative;
             z-index: 1;
-            padding: 10px 0px;
         }
     }
 
@@ -73,23 +74,11 @@
 .work_sec::before {
     content: "";
     position: absolute;
-    top: 25%;
-    left: 49%;
+    top: 55%;
+    left: 21%;
     margin: auto;
-    width: 0px;
-    height: 60%;
-    border: 2px dashed #fff;
+    width: 55%;
+    height: 0px;
+    border: 2px dashed #1e1e1e;
 }
 
-.work_sec::after {
-    content: '';
-    position: absolute;
-    background-image: url('/bg_img.png');
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    width: 430px;
-    height: 480px;
-    bottom: 0;
-    left: 4%;
-    // opacity: 0.4;
-}
