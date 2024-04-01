@@ -49,7 +49,7 @@ export default function Header(){
                             <Nav className={`${style.nav} justify-content-center pe-3`}>
                                 <Nav.Link href="/" className={style.link}>Home</Nav.Link>
                                 <Nav.Link href="/About" className={style.link}>About</Nav.Link>
-                                <Nav.Link href="/Blogs" className={style.link}>Faqs</Nav.Link>
+                                <Nav.Link href="/Faqs" className={style.link}>Faqs</Nav.Link>
                                 <Nav.Link href="/ContactUs" className={style.link}>Contact Us </Nav.Link>
                             </Nav>
                         </Offcanvas.Body>

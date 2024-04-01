@@ -40,7 +40,7 @@ export default function Footer() {
                   <h6 className={style.heading}>Quick Links</h6>
                   <ul className={style.list}>
                     <li className={style.items}><Link href='/'>Home</Link></li>
-                    <li className={style.items}><Link href='#'>About</Link></li>
+                    <li className={style.items}><Link href='/About'>About</Link></li>
                     <li className={style.items}><Link href='#'>Faqs</Link></li>
                     <li className={style.items}><Link href='/ContactUs'>Contact Us</Link></li>
                   </ul>
