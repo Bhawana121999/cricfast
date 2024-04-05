@@ -92,6 +92,16 @@
             }
         }
     }
+
+    .btn2:global(.btn) {
+        background-color: #fff;
+        color: #1e1e1e;
+        font-size: 16px;
+        font-weight: 600;
+        border-radius: 30px;
+        padding: 7px 15px;
+        border-color: #fff;
+    }
 }
 
 
@@ -160,6 +170,16 @@
                 }
             }
         }
+    }
+
+    .btn2:global(.btn) {
+        background-color: #1e1e1e;
+        border-color: #1e1e1e;
+        color: #fff;
+        font-size: 16px;
+        font-weight: 500;
+        border-radius: 30px;
+        padding: 7px 15px;
     }
 }
 

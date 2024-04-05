@@ -13,8 +13,10 @@ export default function Banner() {
         <div className="row justify-content-center">
           <div className="col-lg-7 col-md-7 col-sm-7 text-center">
             <div className={style.main_content}>
-              <h1 className={style.heading}>Join the Fun & Win Big!</h1>
-              <p className={style.para}>Our app is a suite of utilities crafted to enhance the thrill of fantasy sports.</p>
+              <h1 className={style.heading} data-aos="fade-right" data-aos-offset="500" data-aos-easing="ease-in-sine">
+                Join the Fun & Win Big!
+              </h1>
+              <p className={style.para} data-aos="fade-down">Our app is a suite of utilities crafted to enhance the thrill of fantasy sports.</p>
 
               <div className={style.image}>
                 <Link href='#'><Image src={Images.button} alt='' fill priority /></Link>

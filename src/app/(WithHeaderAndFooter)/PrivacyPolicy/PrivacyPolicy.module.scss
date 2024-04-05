@@ -1,0 +1,57 @@
+.privacy_policy {
+    background-color: #f4f4f9;
+    padding: 50px 0px;
+
+    .main_heading {
+        padding: 20px;
+        h1{
+            font-size: 40px;
+            font-weight: 500;
+            color: #1e1e1e;
+            margin-bottom: 0;
+            text-transform: uppercase;
+        }
+    }
+
+    .main {
+        padding: 20px;
+        background-color: #fff;
+
+        .mainh1 {
+            font-size: 20px;
+            font-weight: 400;
+            margin-left: 20px;
+            margin-bottom: 20px;
+        }
+
+        .contant {
+            padding-left: 20px;
+            margin-bottom: 20px;
+
+            h1 {
+                font-size: 20px;
+                font-weight: 500;
+
+            }
+
+            p {
+                font-size: 16
+                
+                px;
+                font-weight: 400;
+            }
+
+            ul {
+                li {
+                    list-style: decimal;
+                }
+            }
+
+            .dots {
+                li {
+                    list-style: circle;
+                }
+            }
+        }
+    }
+}

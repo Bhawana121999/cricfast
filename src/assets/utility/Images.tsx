@@ -11,6 +11,11 @@ import work3 from '@/assets/images/work3.webp'
 import download from '@/assets/images/download.webp'
 import mission from '@/assets/images/mission.png'
 import bg_img from '@/assets/images/bg_img.webp'
+import img1 from '@/assets/images/img1.webp'
+import img2 from '@/assets/images/img2.webp'
+import img3 from '@/assets/images/img3.webp'
+import img4 from '@/assets/images/img4.webp'
+import img5 from '@/assets/images/img5.webp'
 
 export const Images = {
     logo,
@@ -26,4 +31,9 @@ export const Images = {
     download,
     mission,
     bg_img,
+    img1,
+    img2,
+    img3,
+    img4,
+    img5,
 }

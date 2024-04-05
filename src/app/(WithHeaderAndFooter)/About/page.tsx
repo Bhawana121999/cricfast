@@ -11,7 +11,7 @@ export default function page() {
             <div className="container">
                 <div className="row">
                     <div className="col-lg-4 col-md-4 col-sm-4 mb-2">
-                        <div className={style.bg_color}>
+                        <div className={style.bg_color} data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="1000">
                             <div className={style.image}>
                                 <Image src={Images.logo} alt='' fill priority />
                             </div>
@@ -32,7 +32,7 @@ export default function page() {
                         </div>
                     </div>
                     <div className="col-lg-4 col-md-4 col-sm-4 ">
-                        <div className={style.image}>
+                        <div className={style.image} data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="1000">
                             <Image src={Images.bg_img} alt='' fill priority />
                         </div>
                     </div>

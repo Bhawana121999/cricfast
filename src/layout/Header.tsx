@@ -45,7 +45,7 @@ export default function Header(){
                                 Offcanvas
                             </Offcanvas.Title>
                         </Offcanvas.Header>
-                        <Offcanvas.Body className={`${style.body} d-flex justify-content-center`}>
+                        <Offcanvas.Body className={`${style.body} d-flex justify-content-center align-items-center`}>
                             <Nav className={`${style.nav} justify-content-center pe-3`}>
                                 <Nav.Link href="/" className={style.link}>Home</Nav.Link>
                                 <Nav.Link href="/About" className={style.link}>About</Nav.Link>
@@ -54,7 +54,7 @@ export default function Header(){
                             </Nav>
                         </Offcanvas.Body>
 
-
+                        <Link href='#' className={`btn ${style.btn2}`}>Download App</Link>
 
                     </Navbar.Offcanvas>
                 </Container>

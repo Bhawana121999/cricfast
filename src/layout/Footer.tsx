@@ -41,7 +41,7 @@ export default function Footer() {
                   <ul className={style.list}>
                     <li className={style.items}><Link href='/'>Home</Link></li>
                     <li className={style.items}><Link href='/About'>About</Link></li>
-                    <li className={style.items}><Link href='#'>Faqs</Link></li>
+                    <li className={style.items}><Link href='/Faqs'>Faqs</Link></li>
                     <li className={style.items}><Link href='/ContactUs'>Contact Us</Link></li>
                   </ul>
                 </div>
@@ -51,12 +51,12 @@ export default function Footer() {
                 <div className={style.content}>
                   <h6 className={style.heading}>Information</h6>
                   <ul className={style.list}>
-                    <li className={style.items}><Link href='#'>Privacy Policy</Link></li>
-                    <li className={style.items}><Link href='#'>Term & Condition</Link></li>
-                    <li className={style.items}><Link href='#'>How To Play</Link></li>
-                    <li className={style.items}><Link href='#'>Fair & Play</Link></li>
-                    <li className={style.items}><Link href='#'>Point System</Link></li>
-                    <li className={style.items}><Link href='#'>Responsible Play</Link></li>
+                    <li className={style.items}><Link href='/PrivacyPolicy'>Privacy Policy</Link></li>
+                    <li className={style.items}><Link href='/TermAndCondition'>Term & Condition</Link></li>
+                    <li className={style.items}><Link href='/HowToPlay'>How To Play</Link></li>
+                    <li className={style.items}><Link href='/FairPlay'>Fair & Play</Link></li>
+                    <li className={style.items}><Link href='/PointSystem'>Point System</Link></li>
+                    <li className={style.items}><Link href='/ResponsiblePlay'>Responsible Play</Link></li>
                   </ul>
                 </div>
               </div>

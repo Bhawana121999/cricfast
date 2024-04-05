@@ -11,8 +11,8 @@ export default function DownloadApp() {
         <div className={style.download}>
             <div className="container">
                 <div className="row justify-content-between">
-                    <div className="col-lg-5 col-md-5 col-sm-6">
-                        <div className={style.image}>
+                    <div className="col-lg-5 col-md-5 col-sm-6" >
+                        <div className={style.image} data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="1000">
                             <Image src={Images.download} alt='' fill priority />
                         </div>
                     </div>

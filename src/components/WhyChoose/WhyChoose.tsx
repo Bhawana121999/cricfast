@@ -18,7 +18,7 @@ export default function WhyChoose() {
                     <div className="row">
                         <div className="col-lg-4 col-md-4 col-sm-4">
                             <div className="row">
-                                <div className="col-lg-12 col-md-12 col-sm-12">
+                                <div className="col-lg-12 col-md-12 col-sm-12" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="1000">
                                     <div className={style.card_box}>
                                         <div className={style.icon}>
                                             <div className={style.image}>
@@ -33,7 +33,7 @@ export default function WhyChoose() {
                                     </div>
                                 </div>
 
-                                <div className="col-lg-12 col-md-12 col-sm-12">
+                                <div className="col-lg-12 col-md-12 col-sm-12" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="1000">
                                     <div className={style.card_box}>
                                         <div className={style.icon}>
                                             <div className={style.image}>
@@ -48,7 +48,7 @@ export default function WhyChoose() {
                                     </div>
                                 </div>
 
-                                <div className="col-lg-12 col-md-12 col-sm-12">
+                                <div className="col-lg-12 col-md-12 col-sm-12" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="1000">
                                     <div className={style.card_box}>
                                         <div className={style.icon}>
                                             <div className={style.image}>
@@ -63,7 +63,7 @@ export default function WhyChoose() {
                                     </div>
                                 </div>
 
-                                <div className="col-lg-12 col-md-12 col-sm-12">
+                                <div className="col-lg-12 col-md-12 col-sm-12" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="1000">
                                     <div className={style.card_box}>
                                         <div className={style.icon}>
                                             <div className={style.image}>
@@ -91,7 +91,7 @@ export default function WhyChoose() {
 
                         <div className="col-lg-4 col-md-4 col-sm-4">
                             <div className="row">
-                                <div className="col-lg-12 col-md-12 col-sm-12">
+                                <div className="col-lg-12 col-md-12 col-sm-12" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="1000">
                                     <div className={style.card_box}>
                                         <div className={style.icon}>
                                             <div className={style.image}>
@@ -106,7 +106,7 @@ export default function WhyChoose() {
                                     </div>
                                 </div>
 
-                                <div className="col-lg-12 col-md-12 col-sm-12">
+                                <div className="col-lg-12 col-md-12 col-sm-12" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="1000">
                                     <div className={style.card_box}>
                                         <div className={style.icon}>
                                             <div className={style.image}>
@@ -121,7 +121,7 @@ export default function WhyChoose() {
                                     </div>
                                 </div>
 
-                                <div className="col-lg-12 col-md-12 col-sm-12">
+                                <div className="col-lg-12 col-md-12 col-sm-12" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="1000">
                                     <div className={style.card_box}>
                                         <div className={style.icon}>
                                             <div className={style.image}>
@@ -136,7 +136,7 @@ export default function WhyChoose() {
                                     </div>
                                 </div>
 
-                                <div className="col-lg-12 col-md-12 col-sm-12">
+                                <div className="col-lg-12 col-md-12 col-sm-12" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="1000">
                                     <div className={style.card_box}>
                                         <div className={style.icon}>
                                             <div className={style.image}>
